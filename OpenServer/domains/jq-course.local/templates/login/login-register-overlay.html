@@ -1,0 +1,42 @@
+<div id="login-box">
+	<form id="login">
+	    <h3>Sign in here</h3>
+
+		<div>
+	    	<label for="femail">Email</label>
+	    	<input type="text" name="femail" id="femail" value="" maxlength="30" data-validation="email" data-validation="length"/>
+	    </div>
+
+		<div>
+	    	<label for="fpass">Password</label>
+	    	<input type="password" id="fpass" name="fpass" value="" data-validation="length" data-validation-length="min8"/>
+		</div>
+
+		<div>
+	    	<label for="logbutton"> </label>
+	    	<input type="submit" name="logbutton" value="Login" />
+		</div>
+	</form>
+	
+	<form id="register">
+	    <h3>Register now</h3>
+		<div>
+			<label for="femailnew">Email</label>
+			<input type="text" value="" id="femailnew" name="femailnew" data-validation="email" data-validation="length"/>
+		</div>
+
+		<div>
+			<label for="fpassnew">Password</label>
+			<input type="password" id="fpassnew" name="fpassnew" value="" data-validation="length" data-validation-length="min8"/>
+		</div>
+
+		<div>
+			<label for="fpassconfirm">Confirm password</label>
+			<input type="password" id="fpassconfirm" name="fpassconfirm" value="" data-validation="confirmation" data-validation-confirm="fpassnew"/>
+		</div>
+
+		<div>
+	    	<input type="submit" name="regbutton" value="Register"/>
+		</div>
+	</form>
+</div>

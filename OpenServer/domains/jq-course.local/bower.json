@@ -1,0 +1,23 @@
+{
+  "name": "jq-course.local",
+  "authors": [
+    "UNIVERSE\\vkrasnikov <vkrasnikov@dataart.com>"
+  ],
+  "description": "",
+  "main": "bower.json",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+   "dependencies": {
+    "jquery-ui": "jqueryui#^1.12.1",
+    "jquery": "^3.1.1",
+    "jquery-tmpl": "",
+    "jquery-form-validator":""
+  }
+}
